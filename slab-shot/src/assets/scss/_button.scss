@@ -1,0 +1,57 @@
+.main-buttom-1 {
+  float: right;
+  margin-right: 30px;
+}
+
+.main-buttom-2 {
+  float: left;
+  margin-right: 30px;
+  margin-top:50px;
+}
+
+/* ========== Buttom ============= */
+.btn:link,
+.btn:visited {
+  padding: 20px 30px;
+  text-decoration: none;
+  border-radius: 300px;
+  transition: background-color 0.5s, color 0.5s;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s;
+  -ms-transition: background-color 0.5s, color 0.5s;
+  -o-transition: background-color 0.5s, color 0.5s;
+
+  &.btn-request {
+    background-color: $colorWhite;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 300px;
+  
+    &:hover,
+    &:active {
+      background-color: $backgroundPurple;
+      color: $colorWhite;
+      margin-right: 15px;
+    }
+  }
+
+  &.btn-learn {
+    color: $colorWhite;
+    background-color: $backgroundPurple;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 300px;
+    margin-left: 200px;
+
+  
+    &:hover,
+    &:active {
+      background-color: $colorWhite;
+      border: 1px solid $backgroundPurple;
+      color: $backgroundPurple;
+      margin-right: 15px;
+    }
+  }
+}
+
+
+
+

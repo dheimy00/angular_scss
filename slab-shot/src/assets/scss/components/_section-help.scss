@@ -1,0 +1,41 @@
+.section-help {
+  margin-bottom: 10;
+  width: 90%;
+  margin-top: 500px;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  margin-left: 100px;
+
+  &__img{
+      position: static;
+
+  }
+
+
+  &__h{
+    font-weight: bold;
+    font-size: 30px;
+    float: right;
+    text-align: justify;
+    margin-right: 50px;
+    color: $backgroundBlue;
+    margin-top:-400px ;
+    position: relative;
+  }
+
+  &__p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    float: right;
+    text-align: justify;
+    color: $backgroundBlue;
+    margin-right: 50px;
+    margin-top: -250px;
+    position: relative;
+  }
+}

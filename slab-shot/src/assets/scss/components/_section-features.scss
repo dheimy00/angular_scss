@@ -1,0 +1,46 @@
+.section-features {
+  text-align: center;
+  margin-bottom: 30px;
+
+  &__f {
+    & h1 {
+      margin-bottom: 20px;
+      color: $backgroundBlue;
+    }
+
+    & p {
+      color: $backgroundGray;
+    }
+  }
+
+  &__img {
+    float: right;
+    background-color: rgba(240, 99, 184, 0.15);
+    border-radius: 200px 64px 61px 45px;
+    -moz-border-radius: 200px 64px 61px 45px;
+    -webkit-border-radius: 200px 64px 61px 45px;
+    padding: 5px;
+    margin-bottom:10px;
+    position: inherit;
+    & img {
+      float: left;
+    }
+
+    & h1 p a {
+      float: right;
+    }
+
+    & h1 {
+      color: $backgroundBlue;
+    }
+
+    & p {
+      color: $backgroundGray;
+      margin-bottom: 10px;
+    }
+
+    & a {
+      text-decoration: none;
+    }
+  }
+}
